@@ -2,6 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap');
 
 *{font-family: 'Work Sans', sans-serif;}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style  */
+.primary-button{
+    background-color: #FF900E;
+   font-weight: 600;
+   color: white;
+  font-size: 20px; 
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+    margin: 32px;
+     
+}
 
 /* header style added  */
 header{
@@ -34,4 +51,23 @@ nav  li {
 nav li a {
     text-decoration: none;
     color: #424242;
+}
+
+/* banner styles */
+
+.banner-content{
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.banner-title{
+    font-size: 64px;
+font-style: normal;
+font-weight: 700;
+color: #131313;
+}
+.banner-description{
+    color: #727272;
 }
