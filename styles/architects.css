@@ -108,7 +108,7 @@ font-weight: 500;
 .of-our{font-size: 45px;
     font-style: normal;
     font-weight: 700;}
-.features{
+.text-features{
     font-size: 45px;
 font-style: normal;
 font-weight: 700;
@@ -162,6 +162,51 @@ margin:  0;
 
 }
 
+/* styles for features section  */
+.features{
+    display: flex;
+    margin: 3rem 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.features-img{
+    margin-top: 20px;
+}
+.features-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features-card-container .card{
+    width: 35rem;
+    height: 10rem;
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+margin-top: 20px;
+padding: 30px;
+
+
+}
+
+.text-large{
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+}
+.btn-exp{
+    background-color: #FF900E;
+    font-weight: 600;
+    color: white;
+   font-size: 20px; 
+     padding: 45px;
+     border: none;
+     border-radius: 8px;
+     margin-top: -150px;
+     margin-left: -90px;
+     cursor: pointer;
+     text-align: center;
+}
 /* Our sponsor style starts here  */
 .sponsor{
     text-align: center;
@@ -177,6 +222,8 @@ margin:  0;
    filter: grayscale(100%);
    width: 10rem;
 }
+
+
 
 
 /* responsive media queries  */
