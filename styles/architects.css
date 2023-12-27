@@ -25,6 +25,12 @@ body{
     color: #727272;
 }
 
+.title-text{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+ }
+
 /* header style added  */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -35,11 +41,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
- .nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
- }
+ 
 nav > ul {
     display: flex;
     text-decoration: none;
