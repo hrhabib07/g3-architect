@@ -17,6 +17,7 @@ body{
     border: none;
     border-radius: 8px;
     margin: 32px;
+    cursor: pointer;
      
 }
 
@@ -70,4 +71,24 @@ color: #131313;
 }
 .banner-description{
     color: #727272;
+}
+
+/* responsive media queries  */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding:20px;
+    }
+    nav {
+         flex-direction: column;
+    }
+}
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width:960px) {
+    header{
+        padding:50px;
+    }
+    nav {
+         flex-direction: column;
+    }
 }
