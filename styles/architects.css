@@ -16,7 +16,7 @@ body{
     padding: 20px 25px;
     border: none;
     border-radius: 8px;
-    margin: 32px;
+    margin: 20px 0;
     cursor: pointer;
      
 }
@@ -72,6 +72,52 @@ color: #131313;
 .banner-description{
     color: #727272;
 }
+/* main section style  */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* team container styles */
+.team-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.quick-list{
+    color: #727272;
+    font-size: 45px;
+font-weight: 500;
+}
+.of-our{font-size: 45px;
+    font-style: normal;
+    font-weight: 700;}
+.features{
+    font-size: 45px;
+font-style: normal;
+font-weight: 700;
+color: #FF900E;
+
+}
+
+.team-description{
+    color: #727272;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+
+
 
 /* responsive media queries  */
 /* mobile devices */
@@ -92,3 +138,4 @@ color: #131313;
          flex-direction: column;
     }
 }
+
